@@ -8,6 +8,7 @@ public record ViaCepResponse(
         String bairro,
         String localidade,
         String uf,
-        String estado
+        String estado,
+        String erro
 
 ) {}
